@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#header{
+    margin-top: 0px;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#texto-topo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#Anouncement{ 
+    display: inline-block;
+    border: 1px solid #eb5757;
+    background-color: #eb5757;
+    border-radius: 20px;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav{
+    background-color: #eb5757; color: #FFFFFF;
+    height: 60px; 
+}
+
+#logo{
+    position: relative;
+    display: inline-block;
+    background-image: url(logo.svg);
+    margin-top: 15px;
+    margin-left: 200px;
+    height: 30px;
+    width: 107px;
+}
+
+#carrinho{
+    position: relative;
+    margin-top: -15px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #1c1b1b;
+    background-image: url(carrinho.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.lista-menu{
+    position: relative;
+    margin-top: -30px;
+    margin-right: 100px;
+    margin-left: 600px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 500px;
+}
+
+.lista-menu li{
+    margin-right: 40px;
+    color: white;
+}
+
+#topo {
+    margin-top: 0;
+    background-color: #1c1b1b; color: #FFFFFF;
+    text-align: center;
+    height: 60px;
+}
+
+#body{
+    padding-top: 0px;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+#seção1{
+    background-image: url(Imagem1_a.jpg); color: #FFFFFF;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#texto-s1{
+    margin-left: 200px;
+    margin-top: 150px;
+    color: #FFFFFF;
+    font-size: 140%;
+    text-align: left;
+    float: left;
+}
+
+#p-s1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#serving-you{
+    font-size: xx-large;
+}
+
+#shop-merch{
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+    color: white;
+}
+
+#texto-shopmerch{
+    color: white;
+}
+
+#seção2{
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+#cabeçalho-s2{
+    margin-bottom: 20px;
+}
+
+#wts{
+    margin-left: 200px;
+    display: inline-block;
+    width: 400px;
+}
+
+#p2-s2{
+    width: 500px;
+    display: inline-block;
+}
+
+#div-s2{
+    margin-top: 5px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    height: 150px;
+}
+
+#div-circ{
+    margin-left: 200px;
+    margin-right: 50px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+#div-triang{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+#div-rect{
+    margin-left: 50px;
+    margin-right: 200px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+
+#circle{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    background-image: url(circle.svg);
+    color: #FFFFFF;
+    background-color: #1c1b1b;
+}
+
+#triangle{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    background-image: url(triangle.svg);
+    color: #FFFFFF;
+    background-color: #1c1b1b;
+}
+
+#rectangle{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    background-image: url(rectangle.svg);
+    color: #FFFFFF;
+    background-color: #1c1b1b;
+}
+
+#texto-circ, #texto-triang, #texto-rect{
+    margin-top: 20px;
+    font-size: smaller;
+} 
+
+#seção3{
+    background-image: url(imagem2_a.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#texto-s3{
+    margin-right: 200px;
+    margin-top: 150px;
+    color: #FFFFFF;
+    font-size: 140%;
+    text-align: right;
+    float: right;
+}
+
+#p-s3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#read-s3{
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    color: #1c1b1b;
+}
+
+#texto-s4{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#tenda{
+    margin-left: 200px;
+    display: inline-block;
+    height: 450px;
+    width: 300px;
+}
+
+#caneca{
+    display: inline-block;
+    height: 450px;
+    width: 300px;
+}
+
+#bolsa{
+    display: inline-block;
+    height: 450px;
+    width: 300px;
+}
+
+#imagem-tenda{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url(barraca.jpg);
+}
+
+#imagem-caneca{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url(caneca.jpg);
+}
+
+#imagem-bolsa{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url(bolsa.jpg);
+}
+
+#texto-tenda, #texto-caneca, #texto-bolsa{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1c1b1b;
+}
+
+#preço{
+    color: #eb5757;
+}
+
+.details{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80px;
+    margin-top: 20px;
+    border: 1px solid #eb5757;
+    background-color: #eb5757;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#view-s4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 180px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    background-color: #1c1b1b;
+    border-radius: 5px;
+    color: white;
+}
+
+#seção5{
+    margin-bottom: 20px;
+}
+
+#container-texto-s5{
+    position: relative;
+    border-radius: 5px;
+    background-color: #1c1b1b;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mulher{
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: -200px;
+    background-image: url(mulher.jpg);
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+}
+
+#texto-s5{
+    display: inline-block;
+    padding-top: 20px;
+    width: 350px;
+    height: 450px;
+    margin-left: 250px;
+    background-color: #1c1b1b; color: #FFFFFF;
+}
+
+#footer{
+    background-color: #1c1b1b; color: #FFFFFF;
+}
+
+#made-in-webflow{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#webflow{
+    color: #eb5757;
+}
+
+#logo-baixo{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    display: inline-flex;
+}
+
+#redes{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    margin-right: 200px;
+    float: right;
+}
+
+#tw, #fb, #ig{
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
